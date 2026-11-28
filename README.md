@@ -1,35 +1,27 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="It's a Plan — open-source project management and issue tracking where people and AI agents ship together" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/miotsu-mark.svg">
+  <img src="assets/miotsu-mark-light.svg" alt="Miotsu connected-node mark" width="92" height="92">
+</picture>
 
-# The open-source Linear alternative<br>where AI agents take issues like teammates
+# M I O T S U
 
-Use it as a regular issue tracker from day one. When you are ready, give an agent an issue the
-way you give it to a colleague, and review the result yourself or let another agent check it.
-Put agents on a schedule, or build a workflow that passes an issue from agent to agent.
-Self-hosted, on your own server.
+**BY STUDIO SAELIX**
 
-<a href="https://trendshift.io/repositories/95056?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-95056" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/95056" alt="#8 Repository of the Day on GitHub Trending" width="250" height="55"/></a>
-<a href="https://trendshift.io/repositories/95056?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-95056" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/95056/daily?language=TypeScript" alt="#13 TypeScript Repository of the Day on Trendshift" width="250" height="55"/></a>
+### From direction to delivery.
 
-If It's a Plan looks useful to you, star the repo ⭐ and
-[leave a review on Product Hunt](https://www.producthunt.com/products/it-s-a-plan/reviews).<br>
-For news and updates, [follow us on Threads](https://www.threads.com/@itsaplandev).
+Agent-native engineering planning.
 
-<a href="https://railway.com/deploy/its-a-plan?referralCode=lQ5O6i&utm_medium=integration&utm_source=button&utm_campaign=itsaplan"><img src="https://railway.com/button.svg" alt="Deploy on Railway" height="40" /></a>
-<a href="docs/coolify.md"><img src="assets/coolify-button.svg" alt="Deploy on Coolify" height="40" /></a>
-<a href="docs/self-hosting.md"><img src="assets/docker-button.svg" alt="Self-host with Docker" height="40" /></a>
-<a href="https://itsaplan.dev/pro"><img src="assets/pro-button.svg" alt="Deploy Pro version" height="40" /></a>
+[Product direction and roadmap](docs/miotsu-product-plan.md) · [Upstream project](https://github.com/croffasia/itsaplan) · [License](LICENSE)
 
-<img src="assets/screenshots/tour.gif" alt="Board, timeline, initiatives, cycles, docs, notes, dashboards, AI agents, schedules, and workflows" width="100%" />
-
-**Trusted by**
-
-<a href="https://locomotive.agency/"><img src="assets/teams/locomotive.svg" alt="LOCOMOTIVE Agency" height="24" /></a>
-
-[All teams](ADOPTERS.md) · [Add your team →](https://itsaplan.dev/account/showcase)
+**Miotsu** · Plan &nbsp; | &nbsp; **Bosun** · Build &nbsp; | &nbsp; **Sencho** · Operate &nbsp; | &nbsp; **Hato** · Communicate
 
 </div>
+
+Miotsu is a self-hosted fork of It's a Plan, building toward visual dependency planning and first-class mission delegation to [Bosun](https://github.com/Studio-Saelix/bosun). These additions are planned, not yet shipped. The initial priority is a verified migration from Linear without losing engineering continuity.
+
+This repository retains the upstream architecture and licensing. The following upstream documentation describes the inherited application, including its original Community and Pro offerings; upstream services, published images, and commercial features are not Miotsu offerings.
 
 ## Why It's a Plan
 
